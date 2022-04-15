@@ -28,38 +28,38 @@ const  personalMovieDB = {
 };
  
                          // cykl for!!!!!!!!!!!!!!!!!!!!!!
-    //   for(let i = 0; i < 2; i++) {
-    //     const a = prompt('Один из последних просмотренных фильмов?', ''),
-    //           b = prompt('На сколько оцените его?', '');  
+      for(let i = 0; i < 2; i++) {
+        const a = prompt('Один из последних просмотренных фильмов?', ''),
+              b = prompt('На сколько оцените его?', '');  
               
-    //           if (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50)  {
-    //              personalMovieDB.movies[a] = b;
-    //              console.log('done');
-    //           } else{
-    //             console.log('error');
-    //             i--;
-    //           }
+              if (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50)  {
+                 personalMovieDB.movies[a] = b;
+                 console.log('done');
+              } else{
+                console.log('error');
+                i--;
+              }
 
-    //         }
+            }
 
                 
-                                    // cykl while
+                                    // cykl while  hyety sdelal
         
-                const a = prompt('Один из последних просмотренных фильмов?', ''),
-                      b = prompt('На сколько оцените его?', '');
+                // const a = prompt('Один из последних просмотренных фильмов?', ''),
+                //       b = prompt('На сколько оцените его?', '');
         
-                while (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50) {
-                    let i = 0;
-                    if(i < 2) {
-                        personalMovieDB.movies[a] = b;
-                        console.log('done');
-                        i++; 
-                    }  else {
-                        console.log('error');
-                         i-- ;                    
-                 }              
+                // while (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50) {
+                //     let i = 0;
+                //     if(i < 2) {
+                //         personalMovieDB.movies[a] = b;
+                //         console.log('done');
+                //         i++; 
+                //     }  else {
+                //         console.log('error');
+                //          i-- ;                    
+                //  }              
                       
-                }      
+                // }      
                       
             
 
