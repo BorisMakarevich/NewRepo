@@ -36,8 +36,8 @@ logger();
 
 
 //const calc = (a, b) => a + b;  если в одну строчку
-const calc = (a, b) => {return a + b};
-console.log(calc(45, 678));
+// const calc = (a, b) => {return a + b};
+// console.log(calc(45, 678));
 
 
 
