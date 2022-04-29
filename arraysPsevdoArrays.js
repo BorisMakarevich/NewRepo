@@ -1,6 +1,12 @@
 " use strict";
 
-const arr = [2, 3, 6, 8, 10];
+const arr = [2, 13, 26, 8, 10];
+arr.sort(compareNum);
+console.log(arr);
+
+function compareNum(a, b) {         //сортирует массив чисел от меньшего к большему
+    return a - b;
+}
 
 // arr.forEach(function(item, i, arr) {                      // гибко перебрать все элементы массива 0: 2 внутри массива 2,3,6,8,10
 //     console.log(`${i}: ${item} внутри массива ${arr}`);                               //1: 3 внутри массива 2,3,6,8,10
@@ -28,7 +34,7 @@ const arr = [2, 3, 6, 8, 10];
 
 const str = prompt("", "");   //перечень товаров через запятую от заказчика
 const products = str.split(", "); 
-products.sort(); 
+products.sort();                         // сортирует по алфавиту по умолчанию
 //console.log(products);                //превращаем в массив с разделителем в виде запятой
 console.log(products.join('; '));       //превращает массив строк в строку 
 
