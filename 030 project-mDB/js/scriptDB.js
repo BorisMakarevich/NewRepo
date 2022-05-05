@@ -44,10 +44,10 @@ movieDB.movies.sort(); //сортирует по алфавиту элемент
 // console.log(poster.innerHTML);  // просмотреть что лежит в poster  Позволяет получать элементы со страницы
 
 
-movieDB.movies.forEach((film, i) => {                 // +=   дополнительное присваивание a = a+ 1;  a += 1;
+movieDB.movies.forEach((film, i) => {                 // +=   дополнительное присваивание a = a + 1;  a += 1;
     moviesList.innerHTML += `                  
-        <li class="promo__interactive-item">${i + 1} ${film}
+        <li class="promo__interactive-item">${i + 1} ${film}  
             <div class="delete"></div>                    
         </li>                    
-    `;                           
+    `;   // интерполяция выполняется с помощью {{}} с помощью услуги интерполяции $.                        
 });
